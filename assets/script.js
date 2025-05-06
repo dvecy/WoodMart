@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let btnPrev = document.querySelector('.prev');
     let btnNext = document.querySelector('.next');
     let currentIndex = 0;
-    let slideWidth = 200; // This should match the .slide min-width
-    let slideMargin = 10; // Adjust if you have a margin between slides
+    let slideWidth = 200; 
+    let slideMargin = 10; 
   
     btnPrev.addEventListener('click', function() {
       if (currentIndex > 0) {
